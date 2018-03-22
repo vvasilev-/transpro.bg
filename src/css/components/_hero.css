@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
+.c-hero {
+	position: relative;
+	height: calc(100vh + 350px);
+	background: url(../../images/hero.jpg) no-repeat center center;
+	background-size: cover;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.c-hero .c-hero__content {
+	position: absolute;
+	top: 50vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.c-hero .c-hero__headline {
+	margin: 0;
+	font-size: 110px;
+	font-weight: 500;
+	letter-spacing: 0.11em;
+}
+
+.c-hero .c-hero__copy {
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+}
+
+.c-hero .c-hero__pointer {
+	position: absolute;
+	top: 100vh;
+	left: 50%;
+	width: 29px;
+	height: 16px;
+	margin-top: -70px;
+	background: url(../../images/hero-arrow.png) no-repeat 0 0;
+}
