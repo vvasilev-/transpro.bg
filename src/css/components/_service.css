@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Service
+   ========================================================================== */
+
+.c-service {
+	display: flex;
+	align-items: center;
+	max-width: 730px;
+	padding: 50px 0;
+	border: 1px solid #f3f3f4;
+	margin: 70px auto 0;
+}
+
+.c-service .c-service__image {
+	display: block;
+	margin-left: -326px;
+	box-shadow: 0 10px 50px rgba(29, 114, 200, 0.1);
+}
+
+.c-service .c-service__content {
+	max-width: 520px;
+	margin-left: 50px;
+}
+
+.c-service--reversed {
+	flex-direction: row-reverse;
+}
+
+.c-service--reversed .c-service__image {
+	margin-left: 0;
+	margin-right: -326px;
+}
+
+.c-service--reversed .c-service__content {
+	margin-left: 70px;
+	margin-right: 50px;
+}

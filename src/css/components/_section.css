@@ -43,3 +43,8 @@
 	grid-template-columns: repeat(3, 270px);
 	justify-content: center;
 }
+
+.c-section--services {
+	margin-top: 127px;
+	margin-bottom: 189px;
+}
