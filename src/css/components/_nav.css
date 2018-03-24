@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+.c-nav {
+	display: flex;
+	margin-top: 38px;
+}
+
+.c-nav .c-nav__link {
+	margin: 0 20px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1;
+	color: #fff;
+	letter-spacing: 0.1em;
+}
+
+.c-nav .c-nav__link:hover {
+	color: #007eff;
+	text-decoration: none;
+}
