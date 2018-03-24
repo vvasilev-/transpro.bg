@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Truck
+   ========================================================================== */
+
+.c-truck {
+	position: relative;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	border-bottom: 1px solid #f6f7f9;
+	margin-top: -260px;
+}
+
+.c-truck .c-truck__col {
+	padding: 260px 0 60px;;
+}
+
+.c-truck .c-truck__col:first-child {
+	background-color: #f6f7f9;
+}
+
+.c-truck .c-truck__image {
+	display: block;
+	margin: 50px -70px 0 auto;
+}
+
+.c-truck .c-truck__content {
+	max-width: 410px;
+	margin: 87px 0 0 120px;
+}
+
+.c-truck .c-truck__leadline {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: uppercase;;
+	letter-spacing: 0.2em;
+}
+
+.c-truck .c-truck__headline {
+	margin: 12px 0;
+	font-size: 30px;
+	line-height: 1;
+	color: #007eff;
+	text-transform: uppercase;;
+	letter-spacing: 0.2em;
+}
+
+.c-truck .c-truck__copy {
+	margin: 0;
+}
+
+.c-truck .c-truck__features-list {
+	list-style: none;
+	padding: 16px 0 0 20px;
+	margin: 0;
+}
+
+.c-truck .c-truck__features-item {
+	position: relative;
+	padding: 0 0 5px 20px;
+}
+
+.c-truck .c-truck__features-item:before {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #007eff;
+	content: '';
+}
