@@ -2,4 +2,7 @@
    Wrapper
    ========================================================================== */
 
-.o-wrapper { min-height: 100vh; }
+.o-wrapper {
+	position: relative;
+	min-height: 100vh;
+}

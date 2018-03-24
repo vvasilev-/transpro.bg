@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Logo
+   ========================================================================== */
+
+.c-logo {
+	display: inline-flex;
+	align-items: flex-start;
+	margin-top: 26px;
+}
+
+.c-logo:hover {
+	text-decoration: none;
+}
+
+.c-logo .c-logo__icon {
+	display: block;
+	width: 50px;
+	height: 37px;
+	background: url(../../images/logo.png) no-repeat 0 0;
+}
+
+.c-logo .c-logo__text {
+	padding: 9px 0 0 6px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.c-logo .c-logo__text-highlight {
+	color: #007eff;
+	transition: color 0.15s linear;
+}
+
+.c-logo:hover .c-logo__text-highlight {
+	color: #fff;
+}

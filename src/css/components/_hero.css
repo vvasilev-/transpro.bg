@@ -4,6 +4,7 @@
 
 .c-hero {
 	position: relative;
+	z-index: 1;
 	height: calc(100vh + 350px);
 	background: url(../../images/hero.jpg) no-repeat center center;
 	background-size: cover;
@@ -28,7 +29,7 @@
 }
 
 .c-hero .c-hero__copy {
-	margin: 0 0 10px;
+	margin: 0 0 15px;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0.2em;

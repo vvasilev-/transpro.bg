@@ -1,0 +1,16 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.c-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+}
+
+.c-header .c-header__inner {
+	display: flex;
+	justify-content: space-between;
+}

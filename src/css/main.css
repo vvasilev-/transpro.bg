@@ -28,4 +28,6 @@
    Components
    ========================================================================== */
 
+@import './components/_header.css';
+@import './components/_logo.css';
 @import './components/_hero.css';
