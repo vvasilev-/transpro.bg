@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Feature
+   ========================================================================== */
+
+.c-feature {
+	position: relative;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.c-feature:before {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	bottom: 20px;
+	width: 1px;
+	background-color: #f4f4f5;
+	content: '';
+}
+
+.c-feature:first-child:before {
+	display: none;
+}
+
+.c-feature .c-feature__icon {
+	display: block;
+	margin: 0 auto 35px;
+}
+
+.c-feature .c-feature__headline {
+	margin: 0 0 24px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0.1em;
+}
+
+.c-feature .c-feature__copy {
+	margin: 0;
+}

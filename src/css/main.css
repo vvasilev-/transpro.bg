@@ -28,8 +28,11 @@
    Components
    ========================================================================== */
 
+@import './components/_icon.css';
 @import './components/_header.css';
 @import './components/_logo.css';
 @import './components/_nav.css';
 @import './components/_phone-number.css';
 @import './components/_hero.css';
+@import './components/_section.css';
+@import './components/_feature.css';

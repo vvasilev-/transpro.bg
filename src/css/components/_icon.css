@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+.c-icon {
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.c-icon--luggage-space,
+.c-icon--load-board,
+.c-icon--hand-truck {
+	height: 59px;
+}
+
+.c-icon--luggage-space {
+	width: 74px;
+	background-image: url(../../images/icon-luggage-space.png);
+}
+
+.c-icon--load-board {
+	width: 85px;
+	background-image: url(../../images/icon-load-board.png);
+}
+
+.c-icon--hand-truck {
+	width: 67px;
+	background-image: url(../../images/icon-hand-truck.png);
+}

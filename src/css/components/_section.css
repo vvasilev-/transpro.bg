@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Section
+   ========================================================================== */
+
+.c-section {
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.c-section .c-section__headline {
+	margin: 0 0 70px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.c-section .c-section__headline:after {
+	display: block;
+	width: 60px;
+	height: 2px;
+	margin: 40px auto 0;
+	background-color: #007eff;
+	content: '';
+}
+
+.c-section--features {
+	position: relative;
+	z-index: 2;
+	min-height: 610px;
+	padding: 70px 0;
+	border-radius: 10px;
+	margin-top: -350px;
+	background-color: #fff;
+	box-shadow: 0 10px 50px rgba(29, 114, 200, 0.1);
+}
+
+.c-section--features .c-section__body {
+	display: grid;
+	grid-template-columns: repeat(3, 270px);
+	justify-content: center;
+}
