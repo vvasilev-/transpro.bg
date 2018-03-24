@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Phone Number
+   ========================================================================== */
+
+.c-phone-number {
+	margin: 36px 0 0;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 0.1em;
+}
+
+.c-phone-number:before {
+	position: relative;
+	top: 2px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background: url(../../images/icon-phone.png) no-repeat 0 0;
+	content: '';
+}

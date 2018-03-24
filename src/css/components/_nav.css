@@ -4,6 +4,9 @@
 
 .c-nav {
 	display: flex;
+	padding: 1px 0;
+	border-right: 1px solid #414159;
+	margin: 0 20px 0 auto;
 	margin-top: 38px;
 }
 
