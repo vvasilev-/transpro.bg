@@ -48,3 +48,13 @@
 	margin-top: 127px;
 	margin-bottom: 189px;
 }
+
+.c-section--prices {
+	max-width: none;
+	padding: 130px 0 280px;
+	background-color: #11112f;
+}
+
+.c-section--prices .c-section__headline {
+	color: #fff;
+}

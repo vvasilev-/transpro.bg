@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Prices
+   ========================================================================== */
+
+.c-prices {
+	max-width: 540px;
+	border: 1px solid #282840;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.c-prices .c-prices__tabs-nav {
+	display: flex;
+}
+
+.c-prices .c-prices__tabs-link {
+	flex: 1;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #9393ab;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	box-shadow: 0 -1px 0 #282840 inset;
+}
+
+.c-prices .c-prices__tabs-link:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.c-prices .c-prices__tabs-link.is-current {
+	color: #fff;
+	box-shadow: -1px 0 0 #282840 inset, 1px 0 0 #282840 inset;
+}
+
+.c-prices .c-prices__tabs-link.is-current:first-child {
+	box-shadow: -1px 0 0 #282840 inset;
+}
+
+.c-prices .c-prices__tabs-link.is-current:last-child {
+	box-shadow: 1px 0 0 #282840 inset;
+}
+
+.c-prices .c-prices__list {
+	list-style: none;
+	padding: 30px 60px;
+	margin: 0;
+}
+
+.c-prices .c-prices__item {
+	position: relative;
+	padding: 0 0 10px 20px;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 0.1em;
+}
+
+.c-prices .c-prices__item:last-child {
+	padding-bottom: 0;
+}
+
+.c-prices .c-prices__item:before {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 2px;
+	height: 2px;
+	background-color: #007eff;
+	content: '';
+}
+
+.c-prices .c-prices__item strong {
+	font-weight: 700;
+}
