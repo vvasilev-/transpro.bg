@@ -5,4 +5,5 @@
 .o-wrapper {
 	position: relative;
 	min-height: 100vh;
+	background-color: #fff;
 }

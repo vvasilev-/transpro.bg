@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.c-footer {
+	position: relative;
+	background: linear-gradient(to bottom, #10173a 0%,#11112f 100%);
+}
+
+.c-footer:before {
+	position: absolute;
+	top: -130px;
+	left: 50%;
+	width: 662px;
+	height: 245px;
+	transform: translateX(-50%);
+	background: url(../../images/truck-small.png) no-repeat 0 0;
+	content: '';
+}
