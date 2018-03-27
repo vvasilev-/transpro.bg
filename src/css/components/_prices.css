@@ -43,6 +43,14 @@
 	box-shadow: 1px 0 0 #282840 inset;
 }
 
+.c-prices .c-prices__tab {
+	display: none;
+}
+
+.c-prices .c-prices__tab.is-current {
+	display: block;
+}
+
 .c-prices .c-prices__list {
 	list-style: none;
 	padding: 30px 60px;
