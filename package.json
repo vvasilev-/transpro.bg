@@ -5,6 +5,7 @@
     "parcel-bundler": "^1.6.2"
   },
   "dependencies": {
+    "jump.js": "^1.0.2",
     "normalize.css": "^8.0.0"
   },
   "scripts": {

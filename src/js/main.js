@@ -1,4 +1,9 @@
 /**
+ * The external dependencies.
+ */
+import jump from 'jump.js';
+
+/**
  * The tabs functionality of the "Prices" section.
  */
 const links = document.querySelectorAll('.js-tab-link');
@@ -18,4 +23,17 @@ links.forEach(link => link.addEventListener('click', (e) => {
 
 	toggleCurrentClass(links, 'href', id);
 	toggleCurrentClass(tabs, 'id', id);
+}));
+
+
+/**
+ * The main navigation functionality.
+ */
+document.querySelectorAll('.js-jump').forEach(link => link.addEventListener('click', (e) => {
+	e.preventDefault();
+
+	const selector = e.target.attributes.href.value;
+	const offset = e.target.dataset.offset ? parseInt(e.target.dataset.offset, 10) : 0;
+
+	jump(selector, { offset });
 }));
