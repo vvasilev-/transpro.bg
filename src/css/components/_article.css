@@ -45,3 +45,9 @@
 	background-color: #007eff;
 	content: '';
 }
+
+@media (max-width: 1024px) {
+	.c-article .c-article__headline {
+		font-size: 24px;
+	}
+}

@@ -58,3 +58,14 @@
 .c-section--prices .c-section__headline {
 	color: #fff;
 }
+
+@media (max-width: 1024px) {
+	.c-section--services {
+		margin-top: 65px;
+		margin-bottom: 90px;
+	}
+
+	.c-section--prices {
+		padding: 70px 0 140px;
+	}
+}

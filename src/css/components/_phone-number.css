@@ -36,3 +36,9 @@
 	height: 29px;
 	background-image: url(../../images/icon-phone-large.png);
 }
+
+@media (max-width: 1024px) {
+	.c-phone-number--large  {
+		padding-top: 100px;
+	}
+}

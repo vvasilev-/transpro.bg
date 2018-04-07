@@ -44,3 +44,9 @@
 	margin-top: -70px;
 	background: url(../../images/hero-arrow.png) no-repeat 0 0;
 }
+
+@media (max-width: 1024px) {
+	.c-hero .c-hero__headline {
+		font-size: 90px;
+	}
+}

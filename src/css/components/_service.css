@@ -35,3 +35,34 @@
 	margin-left: 70px;
 	margin-right: 50px;
 }
+
+@media (max-width: 1280px) {
+	.c-service {
+		max-width: 800px;
+	}
+
+	.c-service .c-service__content {
+		max-width: none;
+		margin: 0 40px;
+	}
+
+	.c-service .c-service__image {
+		margin-left: -163px;
+	}
+
+	.c-service--reversed .c-service__image {
+		margin-left: 0;
+		margin-right: -163px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.c-service .c-service__image {
+		margin-left: -63px;
+	}
+
+	.c-service--reversed .c-service__image {
+		margin-left: 0;
+		margin-right: -63px;
+	}
+}
