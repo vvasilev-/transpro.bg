@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 1024px) {
+	.c-service {
+		max-width: 600px;
+	}
+
 	.c-service .c-service__image {
 		margin-left: -63px;
 	}
