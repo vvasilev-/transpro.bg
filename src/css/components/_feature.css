@@ -38,3 +38,28 @@
 .c-feature .c-feature__copy {
 	margin: 0;
 }
+
+@media (max-width: 767px) {
+	.c-feature {
+		padding: 15px;
+		border: 1px solid #f4f4f5;
+		border-radius: 5px;
+		margin: 0 15px 15px;
+	}
+
+	.c-feature:last-child {
+		margin-bottom: 0;
+	}
+
+	.c-feature:before {
+		display: none;
+	}
+
+	.c-feature .c-feature__icon {
+		margin-bottom: 20px;
+	}
+
+	.c-feature .c-feature__headline {
+		margin-bottom: 12px;
+	}
+}

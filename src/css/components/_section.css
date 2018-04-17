@@ -69,3 +69,32 @@
 		padding: 70px 0 140px;
 	}
 }
+
+@media (max-width: 767px) {
+	.c-section .c-section__headline {
+		margin-bottom: 35px;
+	}
+
+	.c-section .c-section__headline:after {
+		margin-top: 20px;
+	}
+
+	.c-section--features {
+		min-height: 0;
+		padding: 35px 0;
+		border-radius: 0;
+		margin-top: 0;
+	}
+
+	.c-section--features .c-section__body {
+		display: block;
+	}
+
+	.c-section--services {
+		margin: 35px 0;
+	}
+
+	.c-section--prices {
+		padding: 35px 15px 120px;
+	}
+}

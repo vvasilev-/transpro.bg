@@ -39,14 +39,43 @@
 	position: absolute;
 	top: 100vh;
 	left: 50%;
-	width: 29px;
-	height: 16px;
+	width: 28px;
+	height: 15px;
 	margin-top: -70px;
+	margin-left: -14px;
 	background: url(../../images/hero-arrow.png) no-repeat 0 0;
+	background-size: 100% 100%;
 }
 
 @media (max-width: 1024px) {
 	.c-hero .c-hero__headline {
 		font-size: 90px;
+	}
+}
+
+@media (max-width: 980px) {
+	.c-hero {
+		height: 100vh;
+	}
+
+	.c-hero .c-hero__headline {
+		font-size: 60px;
+	}
+
+	.c-hero .c-hero__pointer {
+		top: auto;
+		bottom: 15%;
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.c-hero {
+		height: 100vh;
+		background-image: url(../../images/hero@767.jpg);
+	}
+
+	.c-hero .c-hero__headline {
+		font-size: 36px;
 	}
 }

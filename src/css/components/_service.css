@@ -36,6 +36,17 @@
 	margin-right: 50px;
 }
 
+@media (max-width: 1480px) {
+	.c-service .c-service__image {
+		margin-left: -200px;
+	}
+
+	.c-service--reversed .c-service__image {
+		margin-left: 0;
+		margin-right: -200px;
+	}
+}
+
 @media (max-width: 1280px) {
 	.c-service {
 		max-width: 800px;
@@ -64,5 +75,21 @@
 	.c-service--reversed .c-service__image {
 		margin-left: 0;
 		margin-right: -63px;
+	}
+}
+
+@media (max-width: 767px) {
+	.c-service {
+		display: block;
+		padding: 0 0 20px;
+		margin: 60px 15px 0;
+	}
+
+	.c-service .c-service__image {
+		margin: -30px auto 30px;
+	}
+
+	.c-service .c-service__content {
+		margin: 0 20px;
 	}
 }

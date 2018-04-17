@@ -51,3 +51,14 @@
 		font-size: 24px;
 	}
 }
+
+@media (max-width: 767px) {
+	.c-article .c-article__leadline {
+		line-height: 1.2;
+	}
+
+	.c-article .c-article__headline {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+}

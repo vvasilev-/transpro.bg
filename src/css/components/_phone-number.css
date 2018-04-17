@@ -19,6 +19,7 @@
 	height: 14px;
 	margin-right: 10px;
 	background: url(../../images/icon-phone.png) no-repeat 0 0;
+	background-size: 100% 100%;
 	content: '';
 }
 
@@ -34,11 +35,34 @@
 	margin-right: 15px;
 	width: 29px;
 	height: 29px;
-	background-image: url(../../images/icon-phone-large.png);
+}
+
+.c-phone-number a {
+	color: inherit;
+	text-decoration: none;
 }
 
 @media (max-width: 1024px) {
 	.c-phone-number--large  {
 		padding-top: 100px;
+	}
+}
+
+@media (max-width: 980px) {
+	.c-phone-number {
+		margin-top: 35px;
+		font-size: 12px;
+	}
+
+	.c-phone-number--large {
+		padding-top: 70px;
+		margin-top: 0;
+		font-size: 16px;
+	}
+
+	.c-phone-number--large:before {
+		display: block;
+		top: 0;
+		margin: 0 auto 15px;
 	}
 }

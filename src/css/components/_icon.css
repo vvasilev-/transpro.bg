@@ -7,12 +7,13 @@
 	vertical-align: middle;
 	background-repeat: no-repeat;
 	background-position: 0 0;
+	background-size: 100% 100%;
 }
 
 .c-icon--luggage-space,
 .c-icon--load-board,
 .c-icon--hand-truck {
-	height: 59px;
+	height: 57px;
 }
 
 .c-icon--luggage-space {

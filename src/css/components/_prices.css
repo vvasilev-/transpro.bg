@@ -82,3 +82,17 @@
 .c-prices .c-prices__item strong {
 	font-weight: 700;
 }
+
+@media (max-width: 767px) {
+	.c-prices .c-prices__tabs-link {
+		font-size: 8px;
+	}
+
+	.c-prices .c-prices__list {
+		padding: 15px;
+	}
+
+	.c-prices .c-prices__item {
+		font-size: 12px;
+	}
+}

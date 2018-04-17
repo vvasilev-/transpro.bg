@@ -16,6 +16,8 @@ const toggleCurrentClass = (elements, property, current) => elements.forEach((el
 	element.classList[method]('is-current');
 });
 
+console.log(links);
+
 links.forEach(link => link.addEventListener('click', (e) => {
 	e.preventDefault();
 
@@ -30,6 +32,7 @@ links.forEach(link => link.addEventListener('click', (e) => {
  * The main navigation functionality.
  */
 document.querySelectorAll('.js-jump').forEach(link => link.addEventListener('click', (e) => {
+	console.log(this);
 	e.preventDefault();
 
 	const selector = e.target.attributes.href.value;

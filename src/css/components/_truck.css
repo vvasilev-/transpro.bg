@@ -52,3 +52,23 @@
 		margin-top: 0;
 	}
 }
+
+@media (max-width: 767px) {
+	.c-truck {
+		display: block;
+		margin-top: 0;
+	}
+
+	.c-truck .c-truck__col {
+		padding: 0;
+	}
+
+	.c-truck .c-truck__image {
+		margin: 30px 0 -40px -30px;
+	}
+
+	.c-truck .c-truck__content {
+		padding: 40px 30px 30px;
+		margin: 0;
+	}
+}

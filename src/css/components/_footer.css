@@ -26,3 +26,12 @@
 		background-image: url(../../images/truck-small@1024.png);
 	}
 }
+
+@media (max-width: 767px) {
+	.c-footer:before {
+		width: 320px;
+		height: 160px;
+		background-image: url(../../images/truck-small@767.png);
+		background-size: 100% 100%;
+	}
+}

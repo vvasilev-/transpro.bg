@@ -18,3 +18,10 @@
 		padding: 50px 0;
 	}
 }
+
+@media (max-width: 767px) {
+	.c-copyright {
+		font-size: 10px;
+		padding: 20px 0;
+	}
+}

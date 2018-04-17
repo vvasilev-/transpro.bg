@@ -23,3 +23,20 @@
 	color: #007eff;
 	text-decoration: none;
 }
+
+@media (max-width: 980px) {
+	.c-nav {
+		margin-right: 10px;
+	}
+
+	.c-nav .c-nav__link {
+		margin: 0 10px;
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 767px) {
+	.c-nav {
+		display: none;
+	}
+}
