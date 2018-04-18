@@ -16,8 +16,6 @@ const toggleCurrentClass = (elements, property, current) => elements.forEach((el
 	element.classList[method]('is-current');
 });
 
-console.log(links);
-
 links.forEach(link => link.addEventListener('click', (e) => {
 	e.preventDefault();
 
