@@ -30,7 +30,6 @@ links.forEach(link => link.addEventListener('click', (e) => {
  * The main navigation functionality.
  */
 document.querySelectorAll('.js-jump').forEach(link => link.addEventListener('click', (e) => {
-	console.log(this);
 	e.preventDefault();
 
 	const selector = e.target.attributes.href.value;
