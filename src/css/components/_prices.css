@@ -83,6 +83,13 @@
 	font-weight: 700;
 }
 
+.c-prices .c-prices__note {
+	font-size: 14px;
+	color: #fff;
+	padding: 0 60px;
+	margin-top: 0;
+}
+
 @media (max-width: 767px) {
 	.c-prices .c-prices__tabs-link {
 		font-size: 8px;
