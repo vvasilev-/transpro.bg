@@ -102,4 +102,8 @@
 	.c-prices .c-prices__item {
 		font-size: 12px;
 	}
+
+	.c-prices .c-prices__note  {
+		padding: 0 20px;
+	}
 }
