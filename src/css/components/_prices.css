@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .c-prices {
-	max-width: 540px;
+	max-width: 640px;
 	border: 1px solid #282840;
 	border-radius: 10px;
 	margin: 0 auto;
@@ -92,7 +92,7 @@
 
 @media (max-width: 767px) {
 	.c-prices .c-prices__tabs-link {
-		font-size: 8px;
+		font-size: 7px;
 	}
 
 	.c-prices .c-prices__list {

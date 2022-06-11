@@ -42,10 +42,6 @@
 				<p class="c-phone-number">
 					София <a href="tel:+359883365675">+359 883 36 56 75</a>
 				</p><!-- /.c-phone-number -->
-
-				<p class="c-phone-number">
-					Варна <a href="tel:+359883305382">+359 883 30 53 82</a>
-				</p><!-- /.c-phone-number -->
 			</div><!-- /.o-shell -->
 		</header><!-- /.c-header -->
 
@@ -232,6 +228,43 @@
 						</p><!-- /.c-article__copy -->
 					</div><!-- /.c-service__content -->
 				</div><!-- /.c-service -->
+
+				<div class="c-service c-service--reversed">
+					<img class="c-service__image" src="images/service-4.jpg"
+						srcset="
+							images/service-4@767.jpg 500w,
+							images/service-4@1024.jpg 305w,
+							images/service-4.jpg 405w
+						"
+						sizes="
+							(max-width: 767px) 250px,
+							(max-width: 1024px) 305px,
+							405px
+						"
+					>
+
+					<div class="c-service__content c-article">
+						<h3 class="c-article__leadline">Почистващи услуги</h3><!-- /.c-article__leadline -->
+
+						<h2 class="c-article__headline">Професионално почистване</h2><!-- /.c-article__headline -->
+
+						<ul>
+							<li>Извозване на стари мебели ибитови отпадъци</li>
+
+							<li>Почистване на дворове, гаражи, складове</li>
+
+							<li>Почистване на мазета и тавани</li>
+						</ul>
+
+						<p class="c-article__copy">
+							За повече информация за предлаганите от нас почистващи услуги, кликнете 
+
+							<strong>
+								<a href="files/services.pdf" target="_blank">тук</a>
+							</strong>
+						</p><!-- /.c-article__copy -->
+					</div><!-- /.c-service__content -->
+				</div><!-- /.c-service -->
 			</div><!-- /.c-section__body -->
 		</section><!-- /.c-section -->
 
@@ -243,36 +276,12 @@
 			<div class="c-section__body">
 				<div class="c-prices">
 					<nav class="c-prices__tabs-nav">
-						<a href="#town-varna" class="c-prices__tabs-link js-tab-link is-current">Варна</a>
-
 						<a href="#town-sofia" class="c-prices__tabs-link js-tab-link">София</a>
 
 						<a href="#countryside" class="c-prices__tabs-link js-tab-link">Извънградско</a>
+
+						<a href="#services" class="c-prices__tabs-link js-tab-link is-current">Почистващи услуги</a>
 					</nav><!-- /.c-prices__nav -->
-
-					<div class="c-prices__tab js-tab is-current" id="town-varna">
-						<ul class="c-prices__list">
-							<li class="c-prices__item">до 10 км и до 1 час - <strong>30 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 10 км - <strong>35 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 15 км - <strong>40 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 20 км - <strong>45 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 25 км - <strong>55 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 30 км - <strong>60 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 40 км - <strong>70 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 45 км - <strong>80 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 60 км - <strong>95 лв</strong></li><!-- /.c-prices__item -->
-
-							<li class="c-prices__item">до 70 км - <strong>100 лв</strong></li><!-- /.c-prices__item -->
-						</ul><!-- /.c-prices__list -->
-					</div><!-- /.c-prices__tab -->
 
 					<div class="c-prices__tab js-tab" id="town-sofia">
 						<ul class="c-prices__list">
@@ -292,12 +301,28 @@
 						<ul class="c-prices__list">
 							<li class="c-prices__item">до 200 км - <strong>0.80 - 0.85 лв/км</strong></li><!-- /.c-prices__item -->
 
-							<li class="c-prices__item">над 200 км - <strong>0.75 - 0.80 лв/км</strong></li><!-- /.c-prices__item -->
+							<li class="c-prices__item">над 200 км - <strong>по договаряне</strong></li><!-- /.c-prices__item -->
 						</ul><!-- /.c-prices__list -->
 
 						<p class="c-prices__note">
 							Моля свържете се с нас на посочения телефон, за да получите по-добри цени.
 						</p><!-- /.c-prices__note -->
+					</div><!-- /.c-prices__tab -->
+
+					<div class="c-prices__tab js-tab is-current" id="services">
+						<ul class="c-prices__list">
+							<li class="c-prices__item">Извозване на стари мебели ибитови отпадъци</li><!-- /.c-prices__item -->
+
+							<li class="c-prices__item">Почистване на дворове, гаражи, складове</li><!-- /.c-prices__item -->
+
+							<li class="c-prices__item">Почистване на мазета и тавани</li><!-- /.c-prices__item -->
+
+							<li class="c-prices__item">
+								<a href="files/services.pdf" target="_blank">
+									<strong>Ценова листа</strong>
+								</a> на почистващи услуги 
+							</li><!-- /.c-prices__item -->
+						</ul><!-- /.c-prices__list -->
 					</div><!-- /.c-prices__tab -->
 				</div><!-- /.c-prices -->
 			</div><!-- /.c-section__body -->
@@ -306,10 +331,6 @@
 		<footer class="c-footer" id="contacts">
 			<p class="c-phone-number c-phone-number--large">
 				София <a href="tel:+359883365675">+359 883 36 56 75</a>
-			</p><!-- /.c-phone-number -->
-
-			<p class="c-phone-number c-phone-number--large">
-				Варна <a href="tel:+359883305382">+359 883 30 53 82</a>
 			</p><!-- /.c-phone-number -->
 
 			<p class="c-copyright">
