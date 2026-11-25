@@ -1,9 +1,4 @@
 /**
- * The external dependencies.
- */
-import jump from 'jump.js';
-
-/**
  * The tabs functionality of the "Prices" section.
  */
 const links = document.querySelectorAll('.js-tab-link');
@@ -32,8 +27,15 @@ links.forEach(link => link.addEventListener('click', (e) => {
 document.querySelectorAll('.js-jump').forEach(link => link.addEventListener('click', (e) => {
 	e.preventDefault();
 
-	const selector = e.target.attributes.href.value;
-	const offset = e.target.dataset.offset ? parseInt(e.target.dataset.offset, 10) : 0;
+	const selector = link.getAttribute('href');
+	const target = document.querySelector(selector);
 
-	jump(selector, { offset });
+	if (!target) {
+		return;
+	}
+
+	const offset = parseInt(link.dataset.offset, 10) || 0;
+	const top = target.getBoundingClientRect().top + window.scrollY + offset;
+
+	window.scrollTo({ top, behavior: 'smooth' });
 }));
